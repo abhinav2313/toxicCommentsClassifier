@@ -21,7 +21,7 @@ def Cleaner(input_text):
 
     
     #symbols to be removed
-    junks = "\'$%@#^,[]/><`~|•" #might want - here
+    junks = "\'$%@#^,[]/><`~|•·" #might want - here
     for junk in junks:
         output_text = output_text.replace(junk, '')
         
