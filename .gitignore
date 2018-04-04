@@ -1,6 +1,9 @@
 #don't upload models from models folder
 models/*.h5
 
+#dont upload partial ngrams
+data/1000*.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
